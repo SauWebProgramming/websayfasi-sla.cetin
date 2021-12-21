@@ -1,49 +1,45 @@
-*,
-*::before,
-*::after{
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Pushster&family=Waterfall&display=swap');
 
+.bg-color{
+    background-color: rgb(5, 3, 99)!important;
 }
-
-a,
-a:Link,
-a:visited{
-    text-decoration: none;
-    outline: none;
-    border: none;
-}
-
-ul,
-li{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-section,
-span,
-p{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-
-}
-
-.cotanier{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.header{
+body{
+   
     background-image: url(page.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
 }
+a,
+a:Link,
+a:visited{
+
+text-decoration: none;
+outline: none;
+border: none;
+ 
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+ 
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    font-size: 10.3rem;
+    font-weight: bold;
+    line-height: 0.4;
+    letter-spacing: 2px;
+    font-family: 'Waterfall', cursive;
+    color:rgb(5, 3, 99);
+}
+
