@@ -1,45 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Pushster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Pushster&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Pushster&family=Waterfall&display=swap');
 
 .bg-color{
     background-color: rgb(5, 3, 99)!important;
 }
-body{
-   
-    background-image: url(page.png);
-    background-position: center;
+
+
+
+.bg-dark{
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url('../websayfasi-bilisimcetin/ımg/dimondsmenu5.jpg');
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
-a,
-a:Link,
-a:visited{
 
-text-decoration: none;
-outline: none;
-border: none;
- 
+#hero .container{
+
+height: 50vh;
+
 }
 
-a{
-    color: black;
-    font-weight: bold;
-}
- 
-.header-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-}
+.generic{
 
-h1{
-    font-size: 10.3rem;
-    font-weight: bold;
-    line-height: 0.4;
-    letter-spacing: 2px;
-    font-family: 'Waterfall', cursive;
-    color:rgb(5, 3, 99);
+    padding: 100px 0;
 }
-
